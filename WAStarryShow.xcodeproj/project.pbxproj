@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9D734D645270FD3886B19B /* libPods-WAStarryShowUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CD36D76443BBE7A7509FE6 /* libPods-WAStarryShowUITests.a */; };
+		3B57C3D2204CDBF900409683 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C3D1204CDBF900409683 /* AppDelegate.m */; };
+		3B57C3D5204CDBF900409683 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C3D4204CDBF900409683 /* ViewController.m */; };
+		3B57C3D8204CDBF900409683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B57C3D6204CDBF900409683 /* Main.storyboard */; };
+		3B57C3DA204CDBF900409683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B57C3D9204CDBF900409683 /* Assets.xcassets */; };
+		3B57C3DD204CDBF900409683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B57C3DB204CDBF900409683 /* LaunchScreen.storyboard */; };
+		3B57C3E0204CDBF900409683 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C3DF204CDBF900409683 /* main.m */; };
+		3B57C3EA204CDBFA00409683 /* WAStarryShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C3E9204CDBFA00409683 /* WAStarryShowTests.m */; };
+		3B57C3F5204CDBFA00409683 /* WAStarryShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C3F4204CDBFA00409683 /* WAStarryShowUITests.m */; };
+		3B57C407204CF4E400409683 /* WAPlanetsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C406204CF4E400409683 /* WAPlanetsView.m */; };
+		3B57C40A204CF64C00409683 /* WAStarrySkyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C409204CF64C00409683 /* WAStarrySkyView.m */; };
+		3B57C40D204CF92600409683 /* UIView+YCHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C40C204CF92600409683 /* UIView+YCHExtension.m */; };
+		3B57C410204CF97F00409683 /* CALayer+YCHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C40F204CF97F00409683 /* CALayer+YCHExtension.m */; };
+		3B57C413204CFD9500409683 /* WAStartsShineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C412204CFD9500409683 /* WAStartsShineView.m */; };
+		3B57C416204CFE1800409683 /* WANewStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C415204CFE1800409683 /* WANewStartView.m */; };
+		3B57C419204CFF9200409683 /* WAMeteorSnowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B57C418204CFF9200409683 /* WAMeteorSnowerView.m */; };
+		3B60A38A204D1EF800929BF6 /* home_background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B60A386204D1EF800929BF6 /* home_background@2x.jpg */; };
+		3B60A38B204D1EF800929BF6 /* home_background@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B60A387204D1EF800929BF6 /* home_background@3x.jpg */; };
+		3B60A38C204D1EF800929BF6 /* home_xingxing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B60A388204D1EF800929BF6 /* home_xingxing@2x.png */; };
+		3B60A38D204D1EF800929BF6 /* home_xingxing@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B60A389204D1EF800929BF6 /* home_xingxing@3x.png */; };
+		3B60A390204D258000929BF6 /* WASearchStar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B60A38F204D258000929BF6 /* WASearchStar.m */; };
+		3B60A393204D259A00929BF6 /* WAHomeStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B60A392204D259A00929BF6 /* WAHomeStateView.m */; };
+		57F60319055A6DF6439FA834 /* libPods-WAStarryShow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F93BA8B9885700C2AE34F210 /* libPods-WAStarryShow.a */; };
+		FF4CEEF72C12E3CF43979D13 /* libPods-WAStarryShowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A049F13C22F608F8543F6C01 /* libPods-WAStarryShowTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B57C3E6204CDBFA00409683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B57C3C5204CDBF900409683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B57C3CC204CDBF900409683;
+			remoteInfo = WAStarryShow;
+		};
+		3B57C3F1204CDBFA00409683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B57C3C5204CDBF900409683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B57C3CC204CDBF900409683;
+			remoteInfo = WAStarryShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CD36D76443BBE7A7509FE6 /* libPods-WAStarryShowUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAStarryShowUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2622576BD460B32E607DBD8B /* Pods-WAStarryShowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStarryShowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WAStarryShowTests/Pods-WAStarryShowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B57C3CD204CDBF900409683 /* WAStarryShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAStarryShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B57C3D0204CDBF900409683 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B57C3D1204CDBF900409683 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B57C3D3204CDBF900409683 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B57C3D4204CDBF900409683 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B57C3D7204CDBF900409683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B57C3D9204CDBF900409683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B57C3DC204CDBF900409683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B57C3DE204CDBF900409683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B57C3DF204CDBF900409683 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B57C3E5204CDBFA00409683 /* WAStarryShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WAStarryShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B57C3E9204CDBFA00409683 /* WAStarryShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAStarryShowTests.m; sourceTree = "<group>"; };
+		3B57C3EB204CDBFA00409683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B57C3F0204CDBFA00409683 /* WAStarryShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WAStarryShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B57C3F4204CDBFA00409683 /* WAStarryShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAStarryShowUITests.m; sourceTree = "<group>"; };
+		3B57C3F6204CDBFA00409683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B57C402204CF46B00409683 /* WAStarryScrollDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAStarryScrollDelegate.h; sourceTree = "<group>"; };
+		3B57C405204CF4E400409683 /* WAPlanetsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAPlanetsView.h; sourceTree = "<group>"; };
+		3B57C406204CF4E400409683 /* WAPlanetsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAPlanetsView.m; sourceTree = "<group>"; };
+		3B57C408204CF64C00409683 /* WAStarrySkyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAStarrySkyView.h; sourceTree = "<group>"; };
+		3B57C409204CF64C00409683 /* WAStarrySkyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAStarrySkyView.m; sourceTree = "<group>"; };
+		3B57C40B204CF92600409683 /* UIView+YCHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YCHExtension.h"; sourceTree = "<group>"; };
+		3B57C40C204CF92600409683 /* UIView+YCHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YCHExtension.m"; sourceTree = "<group>"; };
+		3B57C40E204CF97F00409683 /* CALayer+YCHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+YCHExtension.h"; sourceTree = "<group>"; };
+		3B57C40F204CF97F00409683 /* CALayer+YCHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YCHExtension.m"; sourceTree = "<group>"; };
+		3B57C411204CFD9500409683 /* WAStartsShineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAStartsShineView.h; sourceTree = "<group>"; };
+		3B57C412204CFD9500409683 /* WAStartsShineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAStartsShineView.m; sourceTree = "<group>"; };
+		3B57C414204CFE1800409683 /* WANewStartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WANewStartView.h; sourceTree = "<group>"; };
+		3B57C415204CFE1800409683 /* WANewStartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WANewStartView.m; sourceTree = "<group>"; };
+		3B57C417204CFF9200409683 /* WAMeteorSnowerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAMeteorSnowerView.h; sourceTree = "<group>"; };
+		3B57C418204CFF9200409683 /* WAMeteorSnowerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAMeteorSnowerView.m; sourceTree = "<group>"; };
+		3B60A386204D1EF800929BF6 /* home_background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "home_background@2x.jpg"; sourceTree = "<group>"; };
+		3B60A387204D1EF800929BF6 /* home_background@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "home_background@3x.jpg"; sourceTree = "<group>"; };
+		3B60A388204D1EF800929BF6 /* home_xingxing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_xingxing@2x.png"; sourceTree = "<group>"; };
+		3B60A389204D1EF800929BF6 /* home_xingxing@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_xingxing@3x.png"; sourceTree = "<group>"; };
+		3B60A38E204D258000929BF6 /* WASearchStar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WASearchStar.h; sourceTree = "<group>"; };
+		3B60A38F204D258000929BF6 /* WASearchStar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WASearchStar.m; sourceTree = "<group>"; };
+		3B60A391204D259A00929BF6 /* WAHomeStateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAHomeStateView.h; sourceTree = "<group>"; };
+		3B60A392204D259A00929BF6 /* WAHomeStateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAHomeStateView.m; sourceTree = "<group>"; };
+		8F7E7F5B6F56BC5186F515A2 /* Pods-WAStarryShowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStarryShowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WAStarryShowTests/Pods-WAStarryShowTests.release.xcconfig"; sourceTree = "<group>"; };
+		A049F13C22F608F8543F6C01 /* libPods-WAStarryShowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAStarryShowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE24DAE1BB4C5E57281A3949 /* Pods-WAStarryShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStarryShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-WAStarryShow/Pods-WAStarryShow.release.xcconfig"; sourceTree = "<group>"; };
+		D89AAC18AE35D9816F84FC0E /* Pods-WAStarryShowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStarryShowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WAStarryShowUITests/Pods-WAStarryShowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D928A1C47F5CD039A49F4258 /* Pods-WAStarryShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStarryShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WAStarryShow/Pods-WAStarryShow.debug.xcconfig"; sourceTree = "<group>"; };
+		F93BA8B9885700C2AE34F210 /* libPods-WAStarryShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAStarryShow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA398C675C99FCF55D3C0C9C /* Pods-WAStarryShowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAStarryShowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WAStarryShowUITests/Pods-WAStarryShowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B57C3CA204CDBF900409683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F60319055A6DF6439FA834 /* libPods-WAStarryShow.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B57C3E2204CDBFA00409683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4CEEF72C12E3CF43979D13 /* libPods-WAStarryShowTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B57C3ED204CDBFA00409683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9D734D645270FD3886B19B /* libPods-WAStarryShowUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083EE03F62A10CFB896D286A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D928A1C47F5CD039A49F4258 /* Pods-WAStarryShow.debug.xcconfig */,
+				BE24DAE1BB4C5E57281A3949 /* Pods-WAStarryShow.release.xcconfig */,
+				2622576BD460B32E607DBD8B /* Pods-WAStarryShowTests.debug.xcconfig */,
+				8F7E7F5B6F56BC5186F515A2 /* Pods-WAStarryShowTests.release.xcconfig */,
+				FA398C675C99FCF55D3C0C9C /* Pods-WAStarryShowUITests.debug.xcconfig */,
+				D89AAC18AE35D9816F84FC0E /* Pods-WAStarryShowUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B57C3C4204CDBF900409683 = {
+			isa = PBXGroup;
+			children = (
+				3B57C3CF204CDBF900409683 /* WAStarryShow */,
+				3B57C3E8204CDBFA00409683 /* WAStarryShowTests */,
+				3B57C3F3204CDBFA00409683 /* WAStarryShowUITests */,
+				3B57C3CE204CDBF900409683 /* Products */,
+				083EE03F62A10CFB896D286A /* Pods */,
+				6EED12448A1379FD579E712F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B57C3CE204CDBF900409683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B57C3CD204CDBF900409683 /* WAStarryShow.app */,
+				3B57C3E5204CDBFA00409683 /* WAStarryShowTests.xctest */,
+				3B57C3F0204CDBFA00409683 /* WAStarryShowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B57C3CF204CDBF900409683 /* WAStarryShow */ = {
+			isa = PBXGroup;
+			children = (
+				3B60A385204D1EF800929BF6 /* Source */,
+				3B57C3D0204CDBF900409683 /* AppDelegate.h */,
+				3B57C3D1204CDBF900409683 /* AppDelegate.m */,
+				3B57C3D3204CDBF900409683 /* ViewController.h */,
+				3B57C3D4204CDBF900409683 /* ViewController.m */,
+				3B57C3D6204CDBF900409683 /* Main.storyboard */,
+				3B57C3D9204CDBF900409683 /* Assets.xcassets */,
+				3B57C3DB204CDBF900409683 /* LaunchScreen.storyboard */,
+				3B57C3DE204CDBF900409683 /* Info.plist */,
+				3B57C3DF204CDBF900409683 /* main.m */,
+				3B57C402204CF46B00409683 /* WAStarryScrollDelegate.h */,
+				3B57C405204CF4E400409683 /* WAPlanetsView.h */,
+				3B57C406204CF4E400409683 /* WAPlanetsView.m */,
+				3B57C408204CF64C00409683 /* WAStarrySkyView.h */,
+				3B57C409204CF64C00409683 /* WAStarrySkyView.m */,
+				3B57C411204CFD9500409683 /* WAStartsShineView.h */,
+				3B57C412204CFD9500409683 /* WAStartsShineView.m */,
+				3B57C414204CFE1800409683 /* WANewStartView.h */,
+				3B57C415204CFE1800409683 /* WANewStartView.m */,
+				3B57C417204CFF9200409683 /* WAMeteorSnowerView.h */,
+				3B57C418204CFF9200409683 /* WAMeteorSnowerView.m */,
+				3B60A38E204D258000929BF6 /* WASearchStar.h */,
+				3B60A38F204D258000929BF6 /* WASearchStar.m */,
+				3B60A391204D259A00929BF6 /* WAHomeStateView.h */,
+				3B60A392204D259A00929BF6 /* WAHomeStateView.m */,
+				3B57C40B204CF92600409683 /* UIView+YCHExtension.h */,
+				3B57C40C204CF92600409683 /* UIView+YCHExtension.m */,
+				3B57C40E204CF97F00409683 /* CALayer+YCHExtension.h */,
+				3B57C40F204CF97F00409683 /* CALayer+YCHExtension.m */,
+			);
+			path = WAStarryShow;
+			sourceTree = "<group>";
+		};
+		3B57C3E8204CDBFA00409683 /* WAStarryShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B57C3E9204CDBFA00409683 /* WAStarryShowTests.m */,
+				3B57C3EB204CDBFA00409683 /* Info.plist */,
+			);
+			path = WAStarryShowTests;
+			sourceTree = "<group>";
+		};
+		3B57C3F3204CDBFA00409683 /* WAStarryShowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B57C3F4204CDBFA00409683 /* WAStarryShowUITests.m */,
+				3B57C3F6204CDBFA00409683 /* Info.plist */,
+			);
+			path = WAStarryShowUITests;
+			sourceTree = "<group>";
+		};
+		3B60A385204D1EF800929BF6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3B60A386204D1EF800929BF6 /* home_background@2x.jpg */,
+				3B60A387204D1EF800929BF6 /* home_background@3x.jpg */,
+				3B60A388204D1EF800929BF6 /* home_xingxing@2x.png */,
+				3B60A389204D1EF800929BF6 /* home_xingxing@3x.png */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6EED12448A1379FD579E712F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F93BA8B9885700C2AE34F210 /* libPods-WAStarryShow.a */,
+				A049F13C22F608F8543F6C01 /* libPods-WAStarryShowTests.a */,
+				03CD36D76443BBE7A7509FE6 /* libPods-WAStarryShowUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B57C3CC204CDBF900409683 /* WAStarryShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B57C3F9204CDBFA00409683 /* Build configuration list for PBXNativeTarget "WAStarryShow" */;
+			buildPhases = (
+				FBC855B940C284899896E7BA /* [CP] Check Pods Manifest.lock */,
+				3B57C3C9204CDBF900409683 /* Sources */,
+				3B57C3CA204CDBF900409683 /* Frameworks */,
+				3B57C3CB204CDBF900409683 /* Resources */,
+				373E1E1A2DFF3C0D83FCFC37 /* [CP] Embed Pods Frameworks */,
+				5F8C8124E2DF0D69D6CA2F01 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WAStarryShow;
+			productName = WAStarryShow;
+			productReference = 3B57C3CD204CDBF900409683 /* WAStarryShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B57C3E4204CDBFA00409683 /* WAStarryShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B57C3FC204CDBFA00409683 /* Build configuration list for PBXNativeTarget "WAStarryShowTests" */;
+			buildPhases = (
+				4FF5EA2AEA5C43A0BB6FD580 /* [CP] Check Pods Manifest.lock */,
+				3B57C3E1204CDBFA00409683 /* Sources */,
+				3B57C3E2204CDBFA00409683 /* Frameworks */,
+				3B57C3E3204CDBFA00409683 /* Resources */,
+				48013E134BE85A86B6363056 /* [CP] Embed Pods Frameworks */,
+				48B3CB3789995F13A972EB54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B57C3E7204CDBFA00409683 /* PBXTargetDependency */,
+			);
+			name = WAStarryShowTests;
+			productName = WAStarryShowTests;
+			productReference = 3B57C3E5204CDBFA00409683 /* WAStarryShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B57C3EF204CDBFA00409683 /* WAStarryShowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B57C3FF204CDBFA00409683 /* Build configuration list for PBXNativeTarget "WAStarryShowUITests" */;
+			buildPhases = (
+				F1CF38D23C4D3D4477FAD097 /* [CP] Check Pods Manifest.lock */,
+				3B57C3EC204CDBFA00409683 /* Sources */,
+				3B57C3ED204CDBFA00409683 /* Frameworks */,
+				3B57C3EE204CDBFA00409683 /* Resources */,
+				AAC6F1D09CFCACAFD67C9215 /* [CP] Embed Pods Frameworks */,
+				6F911BB35765725D0AB53D89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B57C3F2204CDBFA00409683 /* PBXTargetDependency */,
+			);
+			name = WAStarryShowUITests;
+			productName = WAStarryShowUITests;
+			productReference = 3B57C3F0204CDBFA00409683 /* WAStarryShowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B57C3C5204CDBF900409683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "黄锐灏";
+				TargetAttributes = {
+					3B57C3CC204CDBF900409683 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3B57C3E4204CDBFA00409683 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B57C3CC204CDBF900409683;
+					};
+					3B57C3EF204CDBFA00409683 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B57C3CC204CDBF900409683;
+					};
+				};
+			};
+			buildConfigurationList = 3B57C3C8204CDBF900409683 /* Build configuration list for PBXProject "WAStarryShow" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B57C3C4204CDBF900409683;
+			productRefGroup = 3B57C3CE204CDBF900409683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B57C3CC204CDBF900409683 /* WAStarryShow */,
+				3B57C3E4204CDBFA00409683 /* WAStarryShowTests */,
+				3B57C3EF204CDBFA00409683 /* WAStarryShowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B57C3CB204CDBF900409683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B57C3DD204CDBF900409683 /* LaunchScreen.storyboard in Resources */,
+				3B60A38C204D1EF800929BF6 /* home_xingxing@2x.png in Resources */,
+				3B57C3DA204CDBF900409683 /* Assets.xcassets in Resources */,
+				3B60A38D204D1EF800929BF6 /* home_xingxing@3x.png in Resources */,
+				3B57C3D8204CDBF900409683 /* Main.storyboard in Resources */,
+				3B60A38A204D1EF800929BF6 /* home_background@2x.jpg in Resources */,
+				3B60A38B204D1EF800929BF6 /* home_background@3x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B57C3E3204CDBFA00409683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B57C3EE204CDBFA00409683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		373E1E1A2DFF3C0D83FCFC37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAStarryShow/Pods-WAStarryShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48013E134BE85A86B6363056 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAStarryShowTests/Pods-WAStarryShowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B3CB3789995F13A972EB54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAStarryShowTests/Pods-WAStarryShowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FF5EA2AEA5C43A0BB6FD580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WAStarryShowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F8C8124E2DF0D69D6CA2F01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAStarryShow/Pods-WAStarryShow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F911BB35765725D0AB53D89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAStarryShowUITests/Pods-WAStarryShowUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAC6F1D09CFCACAFD67C9215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAStarryShowUITests/Pods-WAStarryShowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1CF38D23C4D3D4477FAD097 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WAStarryShowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC855B940C284899896E7BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WAStarryShow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B57C3C9204CDBF900409683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B57C407204CF4E400409683 /* WAPlanetsView.m in Sources */,
+				3B60A393204D259A00929BF6 /* WAHomeStateView.m in Sources */,
+				3B57C416204CFE1800409683 /* WANewStartView.m in Sources */,
+				3B57C413204CFD9500409683 /* WAStartsShineView.m in Sources */,
+				3B57C40A204CF64C00409683 /* WAStarrySkyView.m in Sources */,
+				3B60A390204D258000929BF6 /* WASearchStar.m in Sources */,
+				3B57C3D5204CDBF900409683 /* ViewController.m in Sources */,
+				3B57C410204CF97F00409683 /* CALayer+YCHExtension.m in Sources */,
+				3B57C3E0204CDBF900409683 /* main.m in Sources */,
+				3B57C3D2204CDBF900409683 /* AppDelegate.m in Sources */,
+				3B57C419204CFF9200409683 /* WAMeteorSnowerView.m in Sources */,
+				3B57C40D204CF92600409683 /* UIView+YCHExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B57C3E1204CDBFA00409683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B57C3EA204CDBFA00409683 /* WAStarryShowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B57C3EC204CDBFA00409683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B57C3F5204CDBFA00409683 /* WAStarryShowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B57C3E7204CDBFA00409683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B57C3CC204CDBF900409683 /* WAStarryShow */;
+			targetProxy = 3B57C3E6204CDBFA00409683 /* PBXContainerItemProxy */;
+		};
+		3B57C3F2204CDBFA00409683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B57C3CC204CDBF900409683 /* WAStarryShow */;
+			targetProxy = 3B57C3F1204CDBFA00409683 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B57C3D6204CDBF900409683 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B57C3D7204CDBF900409683 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B57C3DB204CDBF900409683 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B57C3DC204CDBF900409683 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B57C3F7204CDBFA00409683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B57C3F8204CDBFA00409683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B57C3FA204CDBFA00409683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D928A1C47F5CD039A49F4258 /* Pods-WAStarryShow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z983WBE8CG;
+				INFOPLIST_FILE = WAStarryShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ych.WAStarryShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B57C3FB204CDBFA00409683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE24DAE1BB4C5E57281A3949 /* Pods-WAStarryShow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z983WBE8CG;
+				INFOPLIST_FILE = WAStarryShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ych.WAStarryShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B57C3FD204CDBFA00409683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2622576BD460B32E607DBD8B /* Pods-WAStarryShowTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z983WBE8CG;
+				INFOPLIST_FILE = WAStarryShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ych.WAStarryShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAStarryShow.app/WAStarryShow";
+			};
+			name = Debug;
+		};
+		3B57C3FE204CDBFA00409683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7E7F5B6F56BC5186F515A2 /* Pods-WAStarryShowTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z983WBE8CG;
+				INFOPLIST_FILE = WAStarryShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ych.WAStarryShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAStarryShow.app/WAStarryShow";
+			};
+			name = Release;
+		};
+		3B57C400204CDBFA00409683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA398C675C99FCF55D3C0C9C /* Pods-WAStarryShowUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z983WBE8CG;
+				INFOPLIST_FILE = WAStarryShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ych.WAStarryShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WAStarryShow;
+			};
+			name = Debug;
+		};
+		3B57C401204CDBFA00409683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D89AAC18AE35D9816F84FC0E /* Pods-WAStarryShowUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z983WBE8CG;
+				INFOPLIST_FILE = WAStarryShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ych.WAStarryShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WAStarryShow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B57C3C8204CDBF900409683 /* Build configuration list for PBXProject "WAStarryShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B57C3F7204CDBFA00409683 /* Debug */,
+				3B57C3F8204CDBFA00409683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B57C3F9204CDBFA00409683 /* Build configuration list for PBXNativeTarget "WAStarryShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B57C3FA204CDBFA00409683 /* Debug */,
+				3B57C3FB204CDBFA00409683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B57C3FC204CDBFA00409683 /* Build configuration list for PBXNativeTarget "WAStarryShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B57C3FD204CDBFA00409683 /* Debug */,
+				3B57C3FE204CDBFA00409683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B57C3FF204CDBFA00409683 /* Build configuration list for PBXNativeTarget "WAStarryShowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B57C400204CDBFA00409683 /* Debug */,
+				3B57C401204CDBFA00409683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B57C3C5204CDBF900409683 /* Project object */;
+}
